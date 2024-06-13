@@ -1,0 +1,37 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(128, 204, 230);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+h2 {
+  font-size: 2rem;
+  color: aliceblue;
+}
+div {
+  text-align: center;
+}
+
+button {
+  font-size: 4rem;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  filter: grayscale();
+  transition: filter 0.2 ease-in-out;
+  cursor: pointer;
+}
+button:hover {
+  filter: grayscale(0);
+}
+p {
+  font-weight: 600;
+  color: blue;
+}
